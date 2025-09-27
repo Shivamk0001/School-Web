@@ -1,10 +1,7 @@
-// src/components/AdmissionPageSections/AdmissionBanner.jsx
 
 import React from 'react';
-// -------------------------------------------------------------
-// VITAL FIX: Use '../..` to correctly reference the src/assets folder
-// -------------------------------------------------------------
-import admissionBanner from '../../assests/Admission-banner.png'; // Ensure the image is in the correct path
+
+import admissionBanner from '../../assests/admission-banner.png'; // Ensure the image is in the correct path
 
 const AdmissionBanner = () => {
   return (
