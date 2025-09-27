@@ -1,6 +1,5 @@
 
 import React from 'react';
-
 import admissionBanner from '../../assests/admission-banner.png'; // Ensure the image is in the correct path
 
 const AdmissionBanner = () => {
