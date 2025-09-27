@@ -5,7 +5,7 @@ import buildingImage from '../../assests/Frame73.png';
 import classroomImage from '../../assests/Frame74.png'; 
 import universityIcon from '../../assests/Graduate.png'; 
 import trustIcon from '../../assests/Guarantee.png'; 
-import studentIcon from '../../assests/students.png'; 
+import studentIcon from '../../assests/Students.png'; 
 
 function AboutSection() {
   // Define colors based on the original CSS for Tailwind use
