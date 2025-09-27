@@ -1,7 +1,7 @@
 // File: src/components/ImageStrip.jsx (Recommended path)
 
 import React from 'react';
-import imageStripSrc from '../../assests/imagebeforefooter.png'; 
+import imageStripSrc from '../../assests/Imagebeforefooter.png'; 
 
 const ImageStrip = () => {
     return (
