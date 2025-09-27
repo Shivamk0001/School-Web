@@ -3,8 +3,8 @@ import React from 'react';
 
 import heroImage from '../../assests/Hero1.png'; 
 import copilotIcon from '../../assests/Copilot.png'; 
-import googleIcon from '../../assests/google.png';
-import amazonIcon from '../../assests/amazon.png';
+import googleIcon from '../../assests/Google.png';
+import amazonIcon from '../../assests/Amazon.png';
 import adobeIcon from '../../assests/adobe.png';
 import bookNowIcon from '../../assests/Arrowbutton.png'; 
 import downloadIcon from '../../assests/downloadbutton.png'; 

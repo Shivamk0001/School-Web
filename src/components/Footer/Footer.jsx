@@ -5,15 +5,15 @@ import schoolLogo from '../../assests/Rectangle 4.png';
 import mapIconImg from '../../assests/Location.png';
 import phoneIconImg from '../../assests/Phone.png';
 import emailIconImg from '../../assests/Email.png';
-import whatsappIconImg from '../../assests/whatsapp.png';
+import whatsappIconImg from '../../assests/WhatsApp.png';
 import timingsIconImg from '../../assests/Clock.png';
-import followIconImg from '../../assests/userAccount.png'; 
+import followIconImg from '../../assests/UserAccount.png'; 
 
 // Imports for the social icons
 import googleIconImg from '../../assests/Clippathgroup.png';
-import amazonIconImg from '../../assests/vector.png';
+import amazonIconImg from '../../assests/Vector.png';
 import adobeIconImg from '../../assests/GoogleAds.png';
-import microsoftIconImg from '../../assests/Microsoft.png';
+import microsoftIconImg from '../../assests/MicroSoft.png';
 
 // Component for the title icons
 const IconImage = ({ src, alt = "icon" }) => (
