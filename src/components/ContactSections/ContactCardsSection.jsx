@@ -226,88 +226,88 @@ const ContactCardsSection = () => {
         </div>
 
         {/* Right Card: Contact Form */}
-        <div className="bg-[#EEEEEE] shadow-xl rounded-xl overflow-hidden">
+        <div className="bg-[#E0E0E0] shadow-xl rounded-none overflow-hidden border border-[#BDBDBD] w-full max-w-2xl mx-auto">
           {/* Header */}
-          <div className="bg-[#192752] text-white text-center py-4 font-extrabold text-xl">
+          <div className="bg-[#192752] text-white text-center py-4 font-bold text-lg">
             Contact Us
           </div>
 
           {/* Form */}
-          <form className="p-6 space-y-6">
+          <form className="p-8 space-y-6">
             {/* Name Fields */}
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-              <div>
-                <div className="flex items-center text-gray-700 mb-1">
-                  <UserIcon className={iconStyle} />
-                  <label className="text-sm">First Name</label>
-                </div>
-                <FormInput placeholder=".........." />
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
+              <div className="flex items-center border border-gray-300 bg-white h-10 px-2">
+                <UserIcon className="w-5 h-5 text-gray-600 mr-2" />
+                <input
+                  type="text"
+                  placeholder="  First Name"
+                  className="w-full h-full focus:outline-none placeholder-black font-semibold"
+                />
               </div>
-              <div>
-                <div className="flex items-center text-gray-700 mb-1">
-                  <UserIcon className={iconStyle} />
-                  <label className="text-sm">Last Name</label>
-                </div>
-                <FormInput placeholder="........." />
+              <div className="flex items-center border border-gray-300 bg-white h-10 px-2">
+                <UserIcon className="w-5 h-5 text-gray-600 mr-2" />
+                <input
+                  type="text"
+                  placeholder="  Last Name"
+                  className="w-full h-full focus:outline-none placeholder-black font-semibold"
+                />
               </div>
             </div>
 
             {/* Contact Fields */}
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-              <div>
-                <div className="flex items-center text-gray-700 mb-1">
-                  <PhoneIcon className={iconStyle} />
-                  <label className="text-sm">Mobile No</label>
-                </div>
-                <FormInput placeholder=".........." />
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
+              <div className="flex items-center border border-gray-300 bg-white h-10 px-2">
+                <PhoneIcon className="w-5 h-5 text-gray-600 mr-2" />
+                <input
+                  type="tel"
+                  placeholder="  Mobile No"
+                  className="w-full h-full focus:outline-none placeholder-black font-semibold"
+                />
               </div>
-              <div>
-                <div className="flex items-center text-gray-700 mb-1">
-                  <MailIcon className={iconStyle} />
-                  <label className="text-sm">Email ID</label>
-                </div>
-                <FormInput placeholder="............" type="email" />
+              <div className="flex items-center border border-gray-300 bg-white h-10 px-2">
+                <MailIcon className="w-5 h-5 text-gray-600 mr-2" />
+                <input
+                  type="email"
+                  placeholder="  Email ID"
+                  className="w-full h-full focus:outline-none placeholder-black font-semibold"
+                />
               </div>
             </div>
 
-            {/* Message Area */}
-            <div>
-              <div className="flex items-start text-gray-700 mb-1">
-                <MessageSquareIcon className={iconStyle} />
-                <label className="text-sm">Message</label>
-              </div>
+            {/* Message */}
+            <div className="flex items-start border border-gray-300 bg-white p-2">
+              <MessageSquareIcon className="w-5 h-5 text-gray-600 mr-2 mt-1" />
               <textarea
-                placeholder="................."
-                rows="4"
-                className="w-full p-2 rounded border border-gray-300
-                           focus:outline-none focus:ring-2 focus:ring-[#192752]
-                           transition duration-150"
+                rows="5"
+                placeholder="  Message"
+                className="w-full focus:outline-none placeholder-black font-semibold"
               ></textarea>
             </div>
 
             {/* Captcha */}
-            <div className="pt-2">
-              <label className="text-gray-700 text-sm font-semibold block mb-1">
+            <div>
+              <label className="block text-black font-semibold mb-2">
                 Please type the characters
               </label>
-              <div className="flex items-center text-gray-700 mb-1">
-              </div>
               <input
                 type="text"
-                value={captchaValue}
-                className="w-full p-2 rounded border border-gray-300
-                           bg-white text-gray-900"
+                className="w-full h-10 p-2 bg-white border border-gray-300"
               />
-              <p className="text-sm mt-1 text-gray-500">Captcha</p>
+              <div className="mt-3">
+                <div className="inline-block border border-gray-400 bg-white px-4 py-2">
+                  <span className="text-xl font-serif tracking-widest text-black italic">
+                    p t X Z p c
+                  </span>
+                </div>
+                <p className="text-sm text-black mt-1">Captcha</p>
+              </div>
             </div>
 
-            {/* Submit Button */}
-            <div className="flex justify-center pt-2">
+            {/* Submit */}
+            <div className="flex justify-center pt-4">
               <button
                 type="submit"
-                className="bg-[#192752] text-white px-8 py-3 rounded-lg
-                           font-bold hover:bg-opacity-90 transition duration-200
-                           shadow-md hover:shadow-lg"
+                className="bg-[#192752] text-white px-8 py-2 font-semibold hover:bg-opacity-90"
               >
                 Submit
               </button>
